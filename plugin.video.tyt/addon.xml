@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tyt" name="The Young Turks" version="0.0.1" provider-name="keeganmccallum">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup4" version="4.3.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="tyt.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The Young Turks.</summary>
+		<description lang="en">.....</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<website>https://github.com/keeganmccallum/</website>
+		<platform>all</platform>
+	</extension>
+</addon>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.tyt" name="The Young Turks" version="0.0.1" provider-name="keeganmccallum">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup4" version="4.3.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="tyt.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The Young Turks.</summary>
+		<description lang="en">.....</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<website>https://github.com/keeganmccallum/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.audio.fratmusic" name="fratmusic" version="0.0.1" provider-name="keeganmccallum">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.requests" version="1.1.0"/>
+		<import addon="script.module.simplejson" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="fratmusic.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Frat Music.</summary>
+		<description lang="en">.....</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<website>https://github.com/keeganmccallum/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+    <addon id="repository.keeganmccallum" name="Keegan McCallum's Personal Repo" version="0.1.0" provider-name="Keegan McCallum">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Keegan McCallum's Personal Repo">
+            <info compressed="false">https://raw.githubusercontent.com/keeganmccallum/repository.keeganmccallum/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/keeganmccallum/repository.keeganmccallum/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/keeganmccallum/repository.keeganmccallum/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>My personal repo with random scripts/addons I hack on</summary>
+            <description></description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon
+  id="webinterface.archplus"
+  version="2.0.3"
+  name="ArchPlus"
+  provider-name="icolala">
+  <requires>
+    <import addon="xbmc.json" version="6.0.0" />
+  </requires>
+  <extension
+    point="xbmc.webinterface"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A modern web interface for KODI</summary>
+    <description lang="en">A modern web interface for KODI. Browse all your movies, tv shows and musics. See what's currently playing. Discover new movies and tv shows. All from your browser, desktop or tablets. Enhanced with functionality to play any URL on Kodi</description>
+    <platform>all</platform>
+    <language>en</language>
+  </extension>
+</addon>
+</addons>
